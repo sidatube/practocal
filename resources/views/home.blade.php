@@ -25,8 +25,12 @@
                 @foreach($apart as $ap)
                     <div class="col-md-4">
                         <img src="upload/{{$ap->__get("image")}}" width="100%">
-                        <H3>Name</H3>
-                        <span>HHHHH</span>
+                        <H3>{{$ap->__get("name")}}</H3>
+                        <span>{{$ap->__get("location")}}</span>
+                        <span>{{$ap->__get("cost")}} VND</span>
+                        <span>{{$ap->__get("detail")}}</span>
+                        <span>{{$ap->__get("description")}}</span>
+                        <span>{{$ap->__get("status")}}</span>
                     </div>
                 @endforeach
             </div>
