@@ -37,27 +37,27 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>District1</p>
                         </a>
                     </li> <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>District2</p>
                         </a>
                     </li> <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>District3</p>
                         </a>
                     </li> <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>District4</p>
                         </a>
                     </li> <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>District5</p>
                         </a>
@@ -76,29 +76,29 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>District1</p>
+                            <p>10.000.000 VND</p>
                         </a>
                     </li> <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>District2</p>
+                            <p>10.000.000 VND - 20.000.000 VND</p>
                         </a>
                     </li> <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>District3</p>
+                            <p>20.000.000 VND - 40.000.000 VND</p>
                         </a>
                     </li> <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>District4</p>
+                            <p>40.000.000 VND - 100.000.000 VND</p>
                         </a>
                     </li> <li class="nav-item">
-                        <a href="{{url("admin/products")}}" class="nav-link">
+                        <a href="" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
-                            <p>District5</p>
+                            <p>100.000.000 VND</p>
                         </a>
                     </li>
 
