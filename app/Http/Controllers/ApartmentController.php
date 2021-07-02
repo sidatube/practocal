@@ -9,7 +9,9 @@ class ApartmentController extends Controller
 {
     //
     public function all(){
-        $apartment=Apartment::all();
+        $apartment=Apartment::paginate(
+            6
+        );
         return view("home",[
             "apart"=>$apartment
             ]);

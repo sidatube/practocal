@@ -37,9 +37,9 @@
         </div>
 
 
-{{--        <div class="card-footer">--}}
-{{--            {!! $apart->links("vendor.pagination.default") !!}--}}
-{{--        </div>--}}
+        <div class="card-footer">
+            {!! $apart->links("vendor.pagination.default") !!}
+        </div>
         <!-- /.content -->
     </div>
 @endsection

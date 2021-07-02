@@ -21,19 +21,20 @@ class ApartmentFactory extends Factory
      */
     public function definition()
     {
-        $status=[
-          "Đã Bán", "Chưa có giao dịch",
-            "Đang có giao dịch"
-        ];
+        $status=array("Đã Bán", "Chưa có giao dịch",
+            "Đang có giao dịch")
+
+        ;
+
         return [
             //
             "name"=>$this->faker->name(),
-            "location"=>$this->faker->randomLetter,
+            "location"=>$this->faker->text,
             "cost"=>$this->faker->numberBetween(120,9900)*100000,
-            "detail"=>$this->faker->randomLetter,
-            "description"=>$this->faker->randomLetter,
+            "detail"=>$this->faker->text,
+            "description"=>$this->faker->text(20),
             "image"=>"abce.jpg",
-            "status"=>array_rand($status,1)
+            "status"=>$status[random_int(0,2)]
         ];
     }
 }
