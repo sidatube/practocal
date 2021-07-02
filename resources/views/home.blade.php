@@ -26,11 +26,11 @@
                     <div class="col-md-4">
                         <img src="upload/{{$ap->__get("image")}}" width="100%">
                         <H3>{{$ap->__get("name")}}</H3>
-                        <span>{{$ap->__get("location")}}</span>
-                        <span>{{$ap->__get("cost")}} VND</span>
-                        <span>{{$ap->__get("detail")}}</span>
-                        <span>{{$ap->__get("description")}}</span>
-                        <span>{{$ap->__get("status")}}</span>
+                        <p>{{$ap->__get("location")}}</p>
+                        <p>{{$ap->__get("cost")}} VND</p>
+                        <p>{{$ap->__get("detail")}}</p>
+                        <p>{{$ap->__get("description")}}</p>
+                        <p>{{$ap->__get("status")}}</p>
                     </div>
                 @endforeach
             </div>
